@@ -6,7 +6,9 @@
 
 
 body{
-    background-image: url(img/tokyo.png);
+    background-image: url(/img/tokyo.jpg) ;
+    width: 1920;
+    height: 1080;
 
 }
 
