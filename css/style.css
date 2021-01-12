@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    background-image: url(/img/tokyo.png);
+
+}
+
+
+
+
+
+li,
+a,
+img {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+
+
+.logo {
+    cursor: pointer;
+
+}
+
+.nav-bar {
+    list-style: none;
+    background-color: transparent;
+
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+}
+
+.nav-bar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-bar li a:hover {
+    color: #0088a9;
+}
+
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1px;
+    list-style: none;
+}
+
+.insta {
+    padding-right: 5px;
+}
+
+.link {
+    padding-right: 5px;
+}
+
+
+.logo {
+    width: 70px;
+    height: 65px;
+    margin-left: 2px;
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+.typewriter {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 3rem;
+    text-transform: uppercase;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid transparent;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.typewriter2 {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 3rem;
+    text-transform: uppercase;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid transparent;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typewriter3 {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 3rem;
+    text-transform: uppercase;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid transparent;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typewriter4 {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 3rem;
+    text-transform: uppercase;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid transparent;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.typewriter {
+    animation: blinkCursor 500ms steps(40) infinite normal, typewriter 6s steps(40) 2s normal both;
+}
+
+@keyframes typewriter {
+    from {width: 0;}
+    to {width: 18em;}
+}
+
+@keyframes blinkCursor {
+    from {border-right-color: transparent;}
+    to {border-right-color: transparent;}
+}
+
+
+.typewriter2 {
+    animation: blinkCursor 500ms steps(40) infinite normal, typewriter 6s steps(40) 2s normal both;
+}
+
+@keyframes typewriter2 {
+    from {width: 0;}
+    to {width: 18em;}
+}
+
+@keyframes blinkCursor {
+    from {border-right-color: transparent;}
+    to {border-right-color: transparent;}
+}
+
+
+.typewriter3 {
+    animation: blinkCursor 500ms steps(40) infinite normal, typewriter 6s steps(40) 2s normal both;
+}
+
+@keyframes typewriter3 {
+    from {width: 0;}
+    to {width: 18em;}
+}
+
+@keyframes blinkCursor {
+    from {border-right-color: transparent;}
+    to {border-right-color: transparent;}
+}
+
+
+.typewriter4 {
+    animation: blinkCursor 500ms steps(40) infinite normal, typewriter 6s steps(40) 2s normal both;
+}
+
+@keyframes typewriter4 {
+    from {width: 0;}
+    to {width: 18em;}
+}
+
+@keyframes blinkCursor {
+    from {border-right-color: transparent;}
+    to {border-right-color: transparent;}
+}
