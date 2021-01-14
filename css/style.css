@@ -5,15 +5,11 @@
 }
 
 
-body{
-    background-image: url(/img/tokyo.jpg) ;
-    
+body {
+    background-image: url(/img/tokyo.jpg);
+
 
 }
-
-
-
-
 
 li,
 a,
@@ -167,13 +163,23 @@ p {
 }
 
 @keyframes typewriter {
-    from {width: 0;}
-    to {width: 18em;}
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 18em;
+    }
 }
 
 @keyframes blinkCursor {
-    from {border-right-color: transparent;}
-    to {border-right-color: transparent;}
+    from {
+        border-right-color: transparent;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }
 
 
@@ -182,13 +188,23 @@ p {
 }
 
 @keyframes typewriter2 {
-    from {width: 0;}
-    to {width: 18em;}
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 18em;
+    }
 }
 
 @keyframes blinkCursor {
-    from {border-right-color: transparent;}
-    to {border-right-color: transparent;}
+    from {
+        border-right-color: transparent;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }
 
 
@@ -197,13 +213,23 @@ p {
 }
 
 @keyframes typewriter3 {
-    from {width: 0;}
-    to {width: 18em;}
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 18em;
+    }
 }
 
 @keyframes blinkCursor {
-    from {border-right-color: transparent;}
-    to {border-right-color: transparent;}
+    from {
+        border-right-color: transparent;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }
 
 
@@ -212,11 +238,21 @@ p {
 }
 
 @keyframes typewriter4 {
-    from {width: 0;}
-    to {width: 18em;}
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 18em;
+    }
 }
 
 @keyframes blinkCursor {
-    from {border-right-color: transparent;}
-    to {border-right-color: transparent;}
+    from {
+        border-right-color: transparent;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }
